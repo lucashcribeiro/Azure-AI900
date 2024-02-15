@@ -1,0 +1,57 @@
+{
+    "id": "/subscriptions/6988c598-b148-456d-b539-d816eb2ffd30/resourceGroups/LABAI-900/providers/Microsoft.MachineLearningServices/workspaces/laboratorioai900",
+    "name": "laboratorioai900",
+    "type": "Microsoft.MachineLearningServices/workspaces",
+    "location": "eastus",
+    "tags": {},
+    "etag": null,
+    "properties": {
+        "friendlyName": "laboratorioai900",
+        "description": "",
+        "storageAccount": "/subscriptions/6988c598-b148-456d-b539-d816eb2ffd30/resourceGroups/LABAI-900/providers/Microsoft.Storage/storageAccounts/laboratorioai90600580564",
+        "keyVault": "/subscriptions/6988c598-b148-456d-b539-d816eb2ffd30/resourceGroups/LABAI-900/providers/Microsoft.Keyvault/vaults/laboratorioai93313169356",
+        "applicationInsights": "/subscriptions/6988c598-b148-456d-b539-d816eb2ffd30/resourceGroups/LABAI-900/providers/Microsoft.insights/components/laboratorioai97410841093",
+        "hbiWorkspace": false,
+        "tenantId": "8202e8e2-33dc-462a-9c44-576a19c58507",
+        "imageBuildCompute": null,
+        "provisioningState": "Succeeded",
+        "managedNetwork": {
+            "isolationMode": "Disabled"
+        },
+        "v1LegacyMode": false,
+        "softDeleteEnabled": false,
+        "creationTime": "2024-02-15T03:47:52.3130830Z",
+        "notebookInfo": {
+            "resourceId": "59482f53265948539ce3982f93943c67",
+            "fqdn": "ml-laboratorioai900-eastus-a7b5664f-a0bf-49bf-b9b9-f3295e980944.eastus.notebooks.azure.net",
+            "isPrivateLinkEnabled": false,
+            "notebookPreparationError": null
+        },
+        "storageHnsEnabled": false,
+        "workspaceId": "a7b5664f-a0bf-49bf-b9b9-f3295e980944",
+        "linkedModelInventoryArmId": null,
+        "privateLinkCount": 0,
+        "publicNetworkAccess": "Enabled",
+        "discoveryUrl": "https://eastus.api.azureml.ms/discovery",
+        "mlFlowTrackingUri": "azureml://eastus.api.azureml.ms/mlflow/v1.0/subscriptions/6988c598-b148-456d-b539-d816eb2ffd30/resourceGroups/LABAI-900/providers/Microsoft.MachineLearningServices/workspaces/laboratorioai900",
+        "sdkTelemetryAppInsightsKey": "f5784ccd-178d-4ecc-9998-b05841b44ae9"
+    },
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "cf2bab41-208a-4c59-a7ca-79def5bd5d6e",
+        "tenantId": "8202e8e2-33dc-462a-9c44-576a19c58507"
+    },
+    "kind": "Default",
+    "sku": {
+        "name": "Basic",
+        "tier": "Basic"
+    },
+    "systemData": {
+        "createdAt": "2024-02-15T03:47:52.313083Z",
+        "createdBy": "lucashcribeiro@gmail.com",
+        "createdByType": "User",
+        "lastModifiedAt": "2024-02-15T03:47:52.313083Z",
+        "lastModifiedBy": "lucashcribeiro@gmail.com",
+        "lastModifiedByType": "User"
+    }
+}
