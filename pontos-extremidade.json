@@ -1,0 +1,26 @@
+{
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "name": "mslearn-bike-auto-1-Autoscale-410",
+        "enabled": false,
+        "targetResourceUri": "/subscriptions/6988c598-b148-456d-b539-d816eb2ffd30/resourceGroups/LABAI-900/providers/Microsoft.MachineLearningServices/workspaces/laboratorioai900/onlineEndpoints/laboratorioai900-nlela/deployments/mslearn-bike-auto-1",
+        "profiles": [
+            {
+                "name": "Auto created default scale condition",
+                "capacity": {
+                    "minimum": "1",
+                    "maximum": "1",
+                    "default": "1"
+                },
+                "rules": [],
+                "useAndAsScaleOutLogicalOperator": false
+            }
+        ],
+        "notifications": [],
+        "targetResourceLocation": "eastus"
+    },
+    "id": "/subscriptions/6988c598-b148-456d-b539-d816eb2ffd30/resourceGroups/LABAI-900/providers/microsoft.insights/autoscalesettings/mslearn-bike-auto-1-Autoscale-410",
+    "name": "mslearn-bike-auto-1-Autoscale-410",
+    "type": "Microsoft.Insights/autoscaleSettings"
+}
